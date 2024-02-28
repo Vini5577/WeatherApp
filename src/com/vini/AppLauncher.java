@@ -2,7 +2,6 @@ package com.vini;
 
 import javax.swing.SwingUtilities;
 
-import com.vini.api.WeatherApp;
 import com.vini.gui.WeatherAppGui;
 
 public class AppLauncher {
@@ -14,6 +13,8 @@ public class AppLauncher {
                 new WeatherAppGui().setVisible(true);
 
                 // System.out.println(WeatherApp.getLocationData("Tokyo"));
+
+                // System.out.println(WeatherApp.getCurrentTime());
             }
         });
     }
